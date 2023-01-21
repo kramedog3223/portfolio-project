@@ -1,41 +1,135 @@
-<!doctype html>
+<!DOCTYPE html>
 <html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
-  <meta charset="utf-8">
-  <title></title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
 
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="apple-touch-icon" href="icon.png" />
+    <!-- Place favicon.ico in the root directory -->
 
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
+    <meta name="theme-color" content="#fafafa" />
+  </head>
 
-  <meta name="theme-color" content="#fafafa">
-</head>
+  <body>
+    <header>
+      <div class="content-wrapper">
+        <nav>
+          <ul>
+            <li>about</li>
+            <li>Skills</li>
+            <li>projects</li>
+            <li>contact</li>
+          </ul>
+        </nav>
+        <div class="home-title"></div>
+        <h1>Nick Kramer</h1>
 
-<body>
+        <h2>Front-End Web Developer</h2>
+      </div>
+    </header>
+    <main>
+      <article class="portfolio">
+        <section id="work">
+          <h2>projects</h2>
+          <div class="content-wrapper">
+            <h3 class="portfolio-header">projects</h3>
+          </div>
+        </section>
+        <section id="skills">
+          <div class="content-wrapper">
+            <h3 class="skills-header">skills</h2>
+              <h4> Developer skills</h4>
+              <div class="lanuage-wrapper">
+                <p class="skill">HTML and CSS</p>
+                <p class="skill">Flexbox</p>
+                <p class="skill">Vanilla Javascript</p>
+                <p class="skill">APIs</p>
+                <p class="skill">ES6 & JSX</p>
+              </div>
+              <h4>Tech stack </h4>
+                <div class="tool-wrapper">
+                  <p class="tool"> Git</p>
+                  <p class="tool"> GitHub</p>
+                  <p class="tool">Photoshop</p>
+                  <p class="tool">Chrome Devtools</p>
+                </div>
+          </div>
+        </section>
+ </article>
 
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
-  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
 
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
-</body>
+        <section id="about">
+          <div class="content-wrapper">
+            <div class="about-content-wrapper">
+              <figure> <img src="self picture" alt="profile-image"></figure>
+              <div class="about-info">
+          <h3>about me</h3 >
+            <h4>I am front end dev</h4>
+            <p class="about-text">
+              "more info about who I am"
+            </p>
+            <p> <span>Can't wait to work  with you!</span></p>
+          </div>
+          </div>
+          </div>
+        </section>
+    </main>
+    <footer id="contact">
+      <div class="content-wrapper">
+<h3>Let's connect</h3>
+<div class="content-wrapper">
+<div class="contact-info">
+  <h5 class="contact-title"> Hire Me</h5>
+  <p>cell number </p>
+  <p>nakramer1992@gmail.com</p>
+</div>
+<div class="contact-info follow-section">
+  <h5 class="contact-title"> Follow me</h5>
+  <ul class="social-icons">
+   <li> <a href="linkedin" target="_blank"><i class="linkendin"></i></a>
+</li> 
+   <li> <a href="github" target="_blank"></a><i class="github"></i></li> 
+   <li> <a href="insta" target="_blank"></a><i class="insta"></i></li> 
+  </ul>
+</div>
+<div class="contact-info">
+  <h5 class="contact-title">
+    Meet me 
+  </h5>
+  <p>Nashville,TN</p>
+</div>
+</div>
+</div>
+    </footer>
 
+    <!-- Add your site or application content here -->
+    <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+      window.ga = function () {
+        ga.q.push(arguments);
+      };
+      ga.q = [];
+      ga.l = +new Date();
+      ga("create", "UA-XXXXX-Y", "auto");
+      ga("set", "anonymizeIp", true);
+      ga("set", "transport", "beacon");
+      ga("send", "pageview");
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async></script>
+  </body>
 </html>
