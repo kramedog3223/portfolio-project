@@ -136,7 +136,7 @@ h4 {
   font-size: 1.25em;
 }
 h5 {
-  font-size: 1.5em;
+  font-size: 1.4em;
 }
 
 .project-link,
@@ -302,7 +302,7 @@ header {
 }
 
 header nav ul li {
-  font-size: 0.75rem;
+  font-size: 0.6rem;
   margin-bottom: 20px;
   font-weight: bold;
   text-transform: uppercase;
@@ -424,9 +424,9 @@ footer {
 
 footer .content-wrapper {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
 }
 
 footer .contact-info {
@@ -750,6 +750,8 @@ footer .social-icons li i {
   /* Footer */
   footer .content-wrapper {
     display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
     align-items: center;
   }
 
@@ -782,7 +784,6 @@ footer .social-icons li i {
 }
 
 @media only screen and (min-width: 1024px) {
-  /* added for landscape tablets and iPad Pro */
   .content-wrapper {
     max-width: 900px;
   }
@@ -979,6 +980,7 @@ footer .social-icons li i {
     max-width: 90%;
     display: flex;
     align-items: center;
+    justify-content: center;
   }
 
   footer .social-icons {
