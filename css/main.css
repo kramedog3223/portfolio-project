@@ -393,6 +393,7 @@ header h2 {
   padding: 15px 0;
   margin: 20px 0;
   background-color: #e9b14c;
+  color: #152a3e;
 }
 
 .tool {
@@ -430,11 +431,15 @@ footer .content-wrapper {
 }
 
 footer .contact-info {
-  width: 30%;
+  width: 100%;
 }
 
 footer h5 {
   width: 100%;
+}
+
+footer .email {
+  font-size: 0.8rem;
 }
 
 footer .follow-section {
