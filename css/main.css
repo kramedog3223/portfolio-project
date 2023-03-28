@@ -416,7 +416,16 @@ header h2 {
 #about p {
   color: #152a3e;
 }
+.about-info {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: 0.5s all ease-in-out;
+}
 
+.about-appear {
+  opacity: 1;
+  transform: translateY(0px);
+}
 /*footer*/
 
 footer {
