@@ -313,7 +313,10 @@ nav #contact-link {
   padding: 10px 10px;
   border-radius: 30px;
 }
-
+nav #contact-link:hover {
+  background-color: #152a3e;
+  color: #e9b14c;
+}
 nav ul {
   display: flex;
   justify-content: space-between;
@@ -327,6 +330,9 @@ header h2 {
   width: 100%;
 }
 
+.intro-text {
+  color: #e9b14c;
+}
 /* main */
 
 /* portfoio */
@@ -947,10 +953,10 @@ footer .social-icons li i {
     padding: 10px 10px;
   }
 
-  nav ul li a:hover,
-  nav #contact-link:hover {
-    background-color: #e0b76a;
-    color: #453e4f;
+  nav ul li a:hover {
+    background-color: #e9b14c;
+    color: #152a3e;
+    text-decoration: underline;
     padding: 10px 10px;
     border-radius: 30px;
   }
