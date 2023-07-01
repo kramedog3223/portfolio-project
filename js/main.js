@@ -2,7 +2,7 @@
 const textDisplay = document.querySelector(".intro-text");
 const phrases = [
   " Front-End Web Developer ",
-  "Gamer",
+  " Gamer",
   " Dog Dad ",
   " BBQ Enthusiast ",
 ];
