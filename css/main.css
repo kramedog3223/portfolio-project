@@ -385,6 +385,11 @@ header h2 {
   color: #eeefda;
 }
 
+.skills {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 #skills {
   background-color: #152a3e;
 }
@@ -771,11 +776,11 @@ footer .social-icons li i {
   footer .content-wrapper {
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
   }
 
-  footer .contact-info,
+  .footer .contact-info,
   .contact-meet,
   .copyright {
     width: 33%;
@@ -786,7 +791,7 @@ footer .social-icons li i {
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-    width: 100%;
+    width: 90%;
   }
 
   footer .social-icons {
@@ -977,7 +982,7 @@ footer .social-icons li i {
   /* skills */
   .skill,
   .tool {
-    width: 30%;
+    width: 35%;
   }
 
   /* about */
